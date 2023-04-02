@@ -1,0 +1,77 @@
+"Pick up the cookie and sigh" 
+
+Rule for printing room description details: stop.
+    Rule for printing the banner text: say "This a true story. It really happened, and it really happened to someone. That someone was Douglas Adams. Adapted from the original.[line break]" instead.
+
+When play begins: now the left hand status line is "April 1, 1976  [the time of day]".
+
+
+
+The table and the man are undescribed.
+	
+The Train station is a room. The player is in the train station. The description of the train station is "It's April 1976. You're a bit early for your train because you got the time wrong. You're sitting at your table with your things[if the businessman is not nowhere], and there's a businessman -- just a regular traveller -- sitting across from you[end if]."
+
+The table is in the train station. The newspaper is on the table. The package of cookies is on the table. The cup of coffee is on the table.
+
+
+Instead of taking the package of cookies, try eating the package of cookies.
+
+Instead of eating the package of cookies for the first time, say "You eat a cookie. The man sitting across from you looks at you and takes a cookie -- one of YOUR cookies."
+Instead of eating the package of cookies for the second time, say "You eat a cookie. The businessman reaches over and takes one of your cookies AGAIN."
+
+Instead of eating the package of cookies for the third time, say "You take another cookie. So does he. You become indignant. If this was the U.S., there'd be gunfire and helicopters, you think."
+
+Instead of eating the package of cookies for the fourth time, say "You take one more cookie; the businessman takes the last one. You can't say anything...you tell yourself you're a stiff upper-lipped Englishman and decide to ignore it. Besides, it's time to catch the train."
+Before eating the package of cookies for the fourth time: now the traincar is in the station; now the newspaper is not fixed in place; now the businessman is nowhere.
+
+Instead of eating the package of cookies for at least the fifth time, say "There's nothing left of the cookies. The man who ate most of them has walked away. It's time to catch the train."
+
+
+The description of the traincar is "It's the one you need to catch. You should take your newspaper with you first, though."
+
+The traincar is a vehicle. The traincar is nowhere. Understand "train" as traincar.
+Instead of taking the traincar, try examining the traincar.
+Instead of entering the traincar, try examining the traincar.
+Catching is an action applying to one thing. Understand "catch [something]" as catching. 
+Instead of catching the traincar, try examining the traincar.
+
+
+
+Instead of drinking the cup of coffee, try examining the coffee.
+Instead of taking the cup of coffee, try examining the cup of coffee.
+The description of the cup of coffee is "You take a sip. It seems to never end."
+
+
+The newspaper is fixed in place. Instead of taking the newspaper while the newspaper is fixed in place, say "Your train isn't here yet. No point in folding up the newspaper when you're not going anywhere."
+
+
+The description of the newspaper is "It's the newspaper for April 1, 1976. The headlines mention that James Callaghan is likely to be the next Prime Minister and that the chimpanzee (no relation) has been put on the endangered species list. 
+
+You think about eating one of your cookies...if there are any left."
+
+The description of the package of cookies is "There are (or were) about eight cookies in the package but there could be more. You're trying to focus on your newspaper as you wait for the train.
+
+You think about eating one of your cookies...if there are any left."
+
+
+
+In the train station is a man called the businessman. The description of the man is "He's a perfectly ordinary-looking guy wearing a business suit, carrying a briefcase. He glances indifferently towards you from across the table." 
+
+Understand "guy" and "man" and "traveller" as businessman.
+Understand "paper" as newspaper.
+
+The description of the player is "It's you."
+
+Understand "cookie" as cookies.
+
+
+
+After taking the newspaper: end the story;  end the story saying "You breath a sigh of relief as you get ready to leave.
+
+You pick up the newspaper, and underneath it you see another package of cookies. A full package of cookies. YOUR package of cookies.
+
+You realize that there is another man walking around England who has the same story as you do -- only he doesn't have the punchline."
+
+[NEW ACTION] Talking to is an action applying to one thing. 
+Understand "talk to [someone]" as talking. 
+Instead of talking to something: say "You'd rather not."
